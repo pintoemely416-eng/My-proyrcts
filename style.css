@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: aquamarine;
+}
+
+img{
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
