@@ -2,6 +2,7 @@ h1{
     text-align: center;
     font-size: 70px;
     color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img{
@@ -11,4 +12,29 @@ img{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label{
+font-size: 20px;
+color:aqua;
+margin-bottom:10px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.boton:hover{
+    background-color: bisque;
+    cursor: pointer;
 }
